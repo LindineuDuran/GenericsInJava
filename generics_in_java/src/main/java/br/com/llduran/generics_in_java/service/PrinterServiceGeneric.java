@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class PrinterService<T>
+public class PrinterServiceGeneric<T>
 {
 	T thingToPrint;
 

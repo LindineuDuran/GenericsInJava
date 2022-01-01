@@ -34,20 +34,20 @@ public class GenericsInJavaApplication implements CommandLineRunner
 		userPrinter.print();
 
 		// Printing a Integer using Generics
-		PrinterService<Integer> printerInt = new PrinterService<Integer>(23);
+		PrinterServiceGeneric<Integer> printerInt = new PrinterServiceGeneric<Integer>(23);
 		printerInt.print();
 
 		// Printing a Double using Generics
-		PrinterService<Double> printDouble = new PrinterService<Double>(30.5);
+		PrinterServiceGeneric<Double> printDouble = new PrinterServiceGeneric<Double>(30.5);
 		printDouble.print();
 
 		// Printing String using Generics
-		PrinterService<String> printString = new PrinterService<String>("Hello World");
+		PrinterServiceGeneric<String> printString = new PrinterServiceGeneric<String>("Hello World");
 		printString.print();
 
 		// Printing a User using Generics
 		var userNovo = User.builder().id(1L).nome("Paula do Nascimento").idade(23).sexo("Feminino").build();
-		PrinterService<User> printUser = new PrinterService<User>(userNovo);
+		PrinterServiceGeneric<User> printUser = new PrinterServiceGeneric<User>(userNovo);
 		printUser.print();
 	}
 }
