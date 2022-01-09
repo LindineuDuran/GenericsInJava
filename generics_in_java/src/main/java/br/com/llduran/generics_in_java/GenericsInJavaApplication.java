@@ -14,7 +14,8 @@ public class GenericsInJavaApplication implements CommandLineRunner
 		SpringApplication.run(GenericsInJavaApplication.class, args);
 	}
 
-	@Override public void run(String... args) throws Exception
+	@Override
+	public void run(String... args) throws Exception
 	{
 		// Printing a Integer
 		var integerPrinter = new IntegerPrinterService(23);
