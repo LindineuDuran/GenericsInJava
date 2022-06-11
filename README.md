@@ -1,6 +1,7 @@
 # Generics in Java
 
 - [Generics In Java - Full Simple Tutorial](https://www.youtube.com/watch?v=K1iu1kXkVoA)
+- [Generics em Java: O que é e exemplos](https://blog.cod3r.com.br/generics-em-java-o-que-e-e-exemplos/)
 
 ## Full tutorial for using Generics in Java!
 Generics in Java can be very confusing for beginner Java learners. Generics are one of the coolest features in Java, but the syntax may not make a lot of sense at first.
